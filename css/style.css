@@ -1,3 +1,37 @@
 body {
   background-color: #fff;
 }
+.box1,
+.box2 {
+  background: green;
+  width: 500px;
+  font-family: Tahoma;
+  font-size: 20px;
+  -webkit-box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.75);
+}
+.box1 {
+  padding: 10px 20px 30px 40px;
+  margin-bottom: 10px;
+  border: 7px solid black;
+  border-bottom: 5px dashed rgb(255, 0, 0);
+  border-radius: 10px;
+  /* line-height: 5px; */
+  font-weight: bold;
+  text-decoration: underline;
+  font-style: italic;
+  text-align: center;
+}
+.box2 {
+  padding: 10px 20px 30px 40px;
+  margin-bottom: 10px;
+  border: 7px solid black;
+  border-top: 5px dashed white;
+  border-radius: 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+li {
+  list-style: none;
+}
