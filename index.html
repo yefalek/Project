@@ -1,92 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css">
- 
-</head>
-<body>
-  <h1>First page</h1>  
-  <a href="http:\\google.com" target="_blank" title="google">
-    <img src="./Just-Google-1-516x300.png" alt="Just google it" title="google">
-  </a>
-  
-  <ol start="3">
-    <li>meet</li>
-    <li>meet 2</li>
-    <li>meet 3</li>
-    <li>meet 3</li>
-  </ol>
-  <div>
-    <select name="search" >
-      <option  value="google">google</option>
-      <option value="yandex">yandex</option>
-      <option selected value="bing">bing</option>
-    </select>
-  </div>
-  <br>
-  <div>
-    <select multiple name="when" >
-      <option value="today">today</option>
-      <option value="yesterday">yesterday</option>
-      <option value="tomorrow">tomorrow</option>
-    </select>
-  </div>
-  <br>
-  <div class="box1">
-    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia unde, quos corrupti quo vitae 
-    voluptate odit voluptatum asperiores, quis animi adipisci nobis laboriosam ipsum ab! Maiores dicta 
-    itaque quaerat iusto!
-  </div>
-  <div class="box2">
-    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia unde, quos corrupti quo vitae
-    voluptate odit voluptatum asperiores, quis animi adipisci nobis laboriosam ipsum ab! Maiores dicta
-    itaque quaerat iusto!
-  </div>
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link rel="stylesheet" href="./css/style.css">
+  </head>
+    <body>
+      <h1>First page</h1>  
+      <a href="http:\\google.com" target="_blank" title="google">
+        <img src="./Just-Google-1-516x300.png" alt="Just google it" title="google">
+      </a>
+      
+      <ol start="3">
+        <li>meet</li>
+        <li>meet 2</li>
+        <li>meet 3</li>
+        <li>meet 3</li>
+      </ol>
+      <div>
+        <select name="search" >
+          <option  value="google">google</option>
+          <option value="yandex">yandex</option>
+          <option selected value="bing">bing</option>
+        </select>
+      </div>
+      <br>
+      <div>
+        <select multiple name="when" >
+          <option value="today">today</option>
+          <option value="yesterday">yesterday</option>
+          <option value="tomorrow">tomorrow</option>
+        </select>
+      </div>
+      <br>
+      <div class="box1">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia unde, quos corrupti quo vitae 
+        voluptate odit voluptatum asperiores, quis animi adipisci nobis laboriosam ipsum ab! Maiores dicta 
+        itaque quaerat iusto!
+      </div>
+      <div class="box2">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia unde, quos corrupti quo vitae
+        voluptate odit voluptatum asperiores, quis animi adipisci nobis laboriosam ipsum ab! Maiores dicta
+        itaque quaerat iusto!
+      </div>
 
-  <form action="#" method="post" enctype="application/x-www-form-urlencoded">
-    <div>
-      <textarea placeholder="Short life story" name="feedback"></textarea>
-    </div>
-    <div>
-      <input type="file" title="your foto">
-    </div>
-    <div>
-      <input type="submit" value="send">
-    </div>
-    <br>
-    <div>  
-      <input placeholder="feedback" type="text" name="feedback" title="feedback">
-      <input type="submit" value="send">
-    </div>
-
-    <br>
-    <br>
-    <div>
-      <input chaked type="radio" name="come" id=""><span>come with friend</span>
-    </div>
-    <div>
-      <input type="radio" name="come" id=""><span>come alone</span>
-    </div>
-    <br>
-    <div><input type="checkbox" name="date id="visit1" title="come?">
-      <label for="visit1">First visit</label>
-      <input type="date" name="date" id="">
-      <br>
-      <input type="checkbox" name="date id=" visit2" title="come?">
-      <label for="visit2">Second visit</label>
-      <input type="date" name="date" id="">
-      <br>
-      <br>
-      <input type="tel" value="+()">
-    </div><br>
-    <div> <input type="button" value="will come"></div>
-  </form>
-  <!-- <script>
-    alert('Hello friend');
-  </script> -->
-  <script src="js/script.js"></script>
-</body>
-</html>
+      <form action="#" method="POST" enctype="application/x-www-form-urlencoded">
+        <div>
+          <textarea placeholder="Short life story" name="feedback"></textarea>
+        </div>
+        <div>
+          <p>Foto from story</p>
+          <input type="file" title="your foto">
+        </div>
+        <br>
+        <div>
+          <input type="submit" value="send">
+        </div>
+        <br>
+        <div>
+          <p>Leave your feedback</p>  
+          <input placeholder="feedback" type="text" name="feedback" title="feedback">
+          <input type="submit" value="send">
+        </div>
+        <div>
+          <p>Visit us again?</p>
+          <input checked chaked type="radio" name="come" id=""><span>come with friend</span>
+        </div>
+        <div>
+          <input type="radio" name="come" id=""><span>come alone</span>
+        </div>
+        <br>
+        <div>
+          <input checked  type="checkbox" name="date id="visit1" title="come?">
+            <label for="visit1">First visit</label>
+            <input type="date" name="date" id="">
+          <br>
+          <input type="checkbox" name="date id=" visit2" title="come?">
+            <label for="visit2">Second visit</label>
+            <input type="date" name="date" id="">
+        </div>
+        <div>
+          <p>Leave your number for comunication</p>
+          <input name="phone number" type="tel" placeholder="+()">
+        </div>
+          <br>
+        <div> 
+          <button type="submit">Will come</button>
+          <button type="reset">Reset forms</button>
+          <!-- <input type="button" value="will come"> -->
+        </div>
+      </form>
+       <!-- <script>
+        alert('Hello friend');
+      </script> 
+      <script src="js/script.js"></script> -->
+    </body>
+</html> 
