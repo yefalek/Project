@@ -35,3 +35,14 @@ body {
 li {
   list-style: none;
 }
+.post-title {
+  letter-spacing: 10px;
+}
+
+.post-text {
+  letter-spacing: 5px;
+}
+.title {
+  color: #ffffff;
+  text-shadow: 2px 2px 4px #000000;
+}
